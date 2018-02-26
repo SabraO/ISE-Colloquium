@@ -1,0 +1,248 @@
+@import url('https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular,bold|GeorgiaPro:regular');
+
+h1.special {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 3em ;
+	color: white;
+}
+
+.front-head {
+    color: 	#696969;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.content h1 {
+    color: 	#696969;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+
+h2.special {
+	font-family: BentonSansRegular,Arial,sans-serif;
+	font-size: 1.5em ;
+	color: white;
+}
+
+p.special{
+	font-family: BentonSansRegular,Arial,sans-serif;
+	font-size: 1em ;
+	color: black;
+}
+
+p.date {
+    font-family: BentonSansRegular,Arial,sans-serif;
+    font-size: 1em;
+    color: #696969;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h2.home-card {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 1.2em ;
+	line-height: 1.5em;
+	color: black;
+}
+
+.upcoming-box {
+  
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+    display: block;
+    margin:  1rem;
+    padding: 1rem;
+    flex: 1;
+   
+}
+
+.upcoming-title {
+  font-family: BentonSansCondBold,Arial,sans-serif;
+  font-size: 1.5em ;
+  line-height: 1em;
+  color: black;
+}
+
+.upcoming-img {
+  max-width: 600px;
+  margin: 2%;
+}
+
+.upcoming-text {
+  margin: 2%;
+}
+
+.up-head {
+  background-image: linear-gradient(-180deg, #D6D6D6 13%, #F8F8F8 100%);
+}
+
+.upcoming-bkg {
+  width: 60%;
+  margin: 0% 20% 0% 20%;
+  padding: 20px 10px 20px 10px;
+}
+
+hr.up{
+    width: 50%;
+    display: block;
+    height: 7px;
+    border: 0;
+    color: #C92E2E;
+    margin: 2% 25% 2% 25%;
+    padding: 0;
+}
+
+/*this is for content pages */
+h1.special-content {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 2em ;
+	color: black;
+}
+
+h2.special-content {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 2em ;
+	color: black;
+}
+p.special-content {
+	font-family: BentonSansRegular,Arial,sans-serif;
+	font-size: 1.1em ;
+	padding: 5%;
+	color: #696969;
+}
+
+h3.special {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 1.5em ;
+	color: black;
+}
+
+h3.special-white {
+	font-family: BentonSansCondBold,Arial,sans-serif;
+	font-size: 1.5em ;
+	color: white;
+}
+
+
+
+  .bg-img { 
+        background-image: url(banner.jpg) ;
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #990000;
+
+ }
+
+ .bg-img-2 { 
+        background-image: url(banner.jpg) ;
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #990000;
+
+ }
+
+ .box {
+ 	
+ 	background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+    display: block;
+    padding: 0.5rem;
+    flex: 1;
+   
+}
+
+
+.column {
+	display:flex; 
+	justify-content: space-between;
+}
+
+*::-ms-backdrop, .row-one-img {
+    padding-right:230px;
+}
+
+img.center {
+	padding-top: 10px;
+	padding-bottom: 15px;
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+/* Overline From Left */
+.hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 400px) {
+    .col-xs-6:nth-child(odd) {
+        clear: left;
+    }
+
+    .col-xs-6 {
+        font-size: 0.8rem;
+    }
+}
+
+div .hover:hover {
+    z-index: 10;
+}
+
+.hover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #363636;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hover:hover:before, .hover:focus:before, .hover:active:before {
+  right: 0;
+}
+
+/* Grow */
+.grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+h2.name {
+    padding-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
